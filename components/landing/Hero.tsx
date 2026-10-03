@@ -30,7 +30,7 @@ function Rise({ text, delay = 0 }: { text: string; delay?: number }) {
 }
 
 function SpinBadge() {
-  const text = "VOICE FIRST • SYSTEM ARCHITECTURE • DISTRIBUTED SYSTEMS • ";
+  const text = "DESIGN • ATTACK • HARDEN • AI STAFF ARCHITECT • ";
   return (
     <div className="relative h-[8.5rem] w-[8.5rem] xl:h-[10rem] xl:w-[10rem]">
       <motion.svg

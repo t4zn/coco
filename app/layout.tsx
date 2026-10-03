@@ -37,16 +37,16 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Exur | Voice-to-Architecture Canvas for Distributed Systems",
+  title: "Exur | AI Staff Architect — Design, Attack, Harden",
   description:
-    "Exur is the world's first voice-to-architecture canvas. Speak your system requirements — Exur renders the live topology graph, drafts RFC specs, and audits cloud costs.",
+    "Exur is an AI Staff Architect that designs your system, attacks it like a chaos engineer, and hardens it before you build it. Powered by Google Gemma 4.",
   icons: {
     icon: "/favicon.svg",
     apple: "/apple-touch-icon.png",
   },
   openGraph: {
-    title: "Exur — Voice-to-Architecture Canvas",
-    description: "Voice-driven system architecture whiteboarding powered by Google Gemma 4, Backboard.io, and ElevenLabs.",
+    title: "Exur — AI Staff Architect",
+    description: "Every outage starts as a design nobody stress-tested. Exur stress-tests it before you build it. Powered by Google Gemma 4.",
     type: "website",
   },
 };
