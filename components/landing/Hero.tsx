@@ -76,14 +76,14 @@ export default function Hero({ onLaunchApp }: { onLaunchApp?: () => void }) {
       <div className="mx-auto max-w-[1320px] px-5 sm:px-8">
         <div className="relative">
           <h1
-            className="display text-[clamp(2.75rem,10.2vw,9.6rem)] text-trido"
+            className="display text-[clamp(2.75rem,9.2vw,9.2rem)] text-trido"
             style={{ letterSpacing: "-0.06em" }}
           >
-            <span className="block">
+            <span className="block whitespace-nowrap">
               <Rise text={h.h1a} delay={0.15} />
             </span>
             <motion.span
-              className="mt-1 inline-block sm:mt-2"
+              className="mt-1 inline-block whitespace-nowrap sm:mt-2"
               initial={{ clipPath: "inset(0 100% 0 0)" }}
               animate={{ clipPath: "inset(0 0% 0 0)" }}
               transition={{ duration: 1, delay: 0.6, ease: [0.76, 0, 0.24, 1] }}

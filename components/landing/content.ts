@@ -9,8 +9,8 @@ export const content = {
     menu: "Menu",
   },
   hero: {
-    h1a: "Speak your system.",
-    h1b: "The architecture builds.",
+    h1a: "Speak systems.",
+    h1b: "Exur builds.",
     sub: "Exur is the voice-first system design canvas. Speak your technical requirements — Exur renders the live topology graph, drafts the RFC spec, detects bottlenecks, and audits cloud costs in real time.",
     cta1: "Launch Architecture Canvas",
     cta2: "Watch Live Demo",
