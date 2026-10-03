@@ -74,19 +74,7 @@ export default function Hero({ onLaunchApp }: { onLaunchApp?: () => void }) {
   return (
     <section id="top" className="paper-grain relative overflow-hidden pt-28 sm:pt-36">
       <div className="mx-auto max-w-[1320px] px-5 sm:px-8">
-        <motion.div
-          initial={{ opacity: 0, y: 12 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.1, ease }}
-          className="inline-flex max-w-full items-center gap-2.5 rounded-full border border-trido/40 bg-white/40 py-1.5 pl-2 pr-4 text-[12px] font-semibold text-trido backdrop-blur sm:text-[13px]"
-        >
-          <span className="rounded-full bg-sun px-2.5 py-0.5 text-[11px] font-extrabold uppercase tracking-wider text-trido-deep">
-            2026
-          </span>
-          <span className="truncate">{h.badge}</span>
-        </motion.div>
-
-        <div className="relative mt-6 sm:mt-8">
+        <div className="relative">
           <h1
             className="display text-[clamp(2.75rem,10.2vw,9.6rem)] text-trido"
             style={{ letterSpacing: "-0.06em" }}

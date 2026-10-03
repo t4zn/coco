@@ -9,7 +9,6 @@ export const content = {
     menu: "Menu",
   },
   hero: {
-    badge: "2nd place worldwide · Gemma 4 Good Hackathon by Google",
     h1a: "Teach out loud.",
     h1b: "The board listens.",
     sub: "TRIDO is the AI smartboard you run entirely with your voice. Say what you want to teach — it draws the mind map, writes the notes and opens the timer while your eyes stay on your students.",
