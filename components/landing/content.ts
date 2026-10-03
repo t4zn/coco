@@ -88,7 +88,7 @@ export const content = {
   how: {
     pill: "01",
     kicker: "How it works",
-    title: "From spoken words to production topology.",
+    title: "Voice to topology.",
     steps: [
       {
         t: "Speak",
@@ -107,7 +107,7 @@ export const content = {
   features: {
     pill: "02",
     kicker: "Capabilities",
-    title: "Everything an engineering team needs before writing code.",
+    title: "Architecture on command.",
     mm: {
       t: "Topology Graphs on Command",
       d: "Describe microservices, brokers, and databases. Exur lays out nodes, protocols, and data flows with zero manual dragging.",
@@ -151,7 +151,7 @@ export const content = {
   story: {
     pill: "03",
     kicker: "Why Exur",
-    title: "Stop dragging boxes. Start designing systems.",
+    title: "Never drag boxes again.",
     p1: "Every senior engineer knows the frustration of whiteboarding in tools built for 2012. You spend 80% of your time aligning rectangles and only 20% reasoning about distributed systems.",
     p2: "Exur gives engineers a voice-first copilot that thinks like a Principal Staff Architect — synthesizing topologies, calculating capacity, and stress-testing edge cases in real time.",
     name: "EXUR CORE",
@@ -162,7 +162,7 @@ export const content = {
   award: {
     pill: "04",
     kicker: "Architecture",
-    title: "Open-weight AI for serious engineering.",
+    title: "Pure open weight.",
     sub: "Built for Hacktoberfest & PyData with Google Gemma 4, Backboard.io, and ElevenLabs.",
     timeline: [
       {
@@ -189,7 +189,7 @@ export const content = {
   faq: {
     pill: "05",
     kicker: "FAQ",
-    title: "Frequently Asked Questions",
+    title: "Good questions.",
     items: [
       {
         q: "How does Exur generate system diagrams from voice?",
@@ -215,7 +215,7 @@ export const content = {
   },
   cta: {
     pill: "06",
-    title: "Design your next distributed system with Exur.",
+    title: "Build with Exur.",
     sub: "Speak your requirements and watch your system topology and technical RFC build in seconds.",
     placeholder: "engineer@company.com",
     button: "Launch Exur Canvas",

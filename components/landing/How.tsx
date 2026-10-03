@@ -91,7 +91,7 @@ export default function How() {
           <SectionPill n={h.pill} label={h.kicker} />
         </Reveal>
         <Reveal delay={0.08}>
-          <h2 className="display mt-6 max-w-[16ch] text-[clamp(2.4rem,7vw,6.2rem)] text-trido">{h.title}</h2>
+          <h2 className="display mt-6 text-[clamp(2.4rem,6vw,5.5rem)] text-trido">{h.title}</h2>
         </Reveal>
 
         <div className="relative mt-12 grid gap-4 sm:mt-16 md:grid-cols-3 md:gap-5">

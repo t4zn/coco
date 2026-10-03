@@ -98,7 +98,7 @@ export function Cta({ onLaunchApp }: { onLaunchApp?: () => void }) {
             <SectionPill n={cta.pill} label="Demo" />
           </Reveal>
           <Reveal delay={0.08}>
-            <h2 className="display mt-6 max-w-[14ch] text-[clamp(2.8rem,9vw,8.4rem)] text-trido" style={{ letterSpacing: "-0.065em" }}>
+            <h2 className="display mt-6 text-[clamp(2.8rem,7vw,7rem)] text-trido" style={{ letterSpacing: "-0.065em" }}>
               {cta.title}
             </h2>
           </Reveal>
