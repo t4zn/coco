@@ -37,16 +37,16 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Trido | AI-Powered Smartboard for Teachers",
+  title: "Exur | Voice-to-Architecture Canvas for Distributed Systems",
   description:
-    "Trido is a voice-controlled, AI-powered digital whiteboard for educators. Speak your lesson — the board builds itself. Built for inclusion.",
+    "Exur is the world's first voice-to-architecture canvas. Speak your system requirements — Exur renders the live topology graph, drafts RFC specs, and audits cloud costs.",
   icons: {
     icon: "/favicon.svg",
     apple: "/apple-touch-icon.png",
   },
   openGraph: {
-    title: "Trido — AI-Powered Smartboard for Teachers",
-    description: "Voice-controlled smart whiteboard. Built for teachers who deserve better tools.",
+    title: "Exur — Voice-to-Architecture Canvas",
+    description: "Voice-driven system architecture whiteboarding powered by Google Gemma 4, Backboard.io, and ElevenLabs.",
     type: "website",
   },
 };

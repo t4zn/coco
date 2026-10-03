@@ -342,7 +342,7 @@ export default function BoardDemo() {
                 <path d="M7 4.5v15l4.2-4.1 2.9 5.1 2.4-1.3-2.9-5H19L7 4.5Z" fill="#1550AA" stroke="#1550AA" strokeWidth="1.4" strokeLinejoin="round" />
               </svg>
             </span>
-            <span className="display text-[15px] text-ink" style={{ letterSpacing: "-0.04em" }}>Trido</span>
+            <span className="display text-[15px] text-ink" style={{ letterSpacing: "-0.04em" }}>Exur</span>
             <span className="hidden h-4 w-px bg-slate-300 sm:block" />
             <span className="hidden text-[12px] text-slate-500 sm:block">{t.demo.classroom}</span>
           </div>

@@ -38,7 +38,7 @@ export function Logo({ className, light }: { className?: string; light?: boolean
         className={cn("display text-[1.55rem]", light ? "text-white" : "text-trido")}
         style={{ letterSpacing: "-0.06em" }}
       >
-        Trido
+        Exur
       </span>
     </span>
   );

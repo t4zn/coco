@@ -95,7 +95,7 @@ export default function Award() {
         <Reveal className="mt-10">
           <p className="text-[12px] font-semibold uppercase tracking-[0.2em] text-trido/60">{a.by}</p>
           <div className="mt-3 flex flex-wrap gap-3">
-            {["TRIDO Team"].map((n) => (
+            {["Exur Core", "Google Gemma 4", "Backboard.io", "ElevenLabs"].map((n) => (
               <span key={n} className="display rounded-full border border-trido px-5 py-2.5 text-[1.05rem] text-trido sm:text-[1.3rem]" style={{ letterSpacing: "-0.035em" }}>
                 {n}
               </span>

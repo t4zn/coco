@@ -57,7 +57,7 @@ export default function Navbar({ onLaunchApp }: { onLaunchApp?: () => void }) {
               : "border-transparent bg-transparent"
           )}
         >
-          <a href="#top" aria-label="TRIDO">
+          <a href="#top" aria-label="Exur">
             <Logo />
           </a>
           <nav className="hidden items-center gap-1 lg:flex">
